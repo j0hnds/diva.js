@@ -26,7 +26,10 @@ import re
 import tempfile
 import subprocess
 import shutil
-import generate_json
+if os.path.basename(__file__) == 'process.py':
+    import generate_json
+else:
+    from iif_processor import generate_json
 from optparse import OptionParser
 
 """

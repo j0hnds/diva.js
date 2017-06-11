@@ -15,3 +15,14 @@ tags
 
 /node_modules/
 /coverage/
+
+# Processing package files
+source/processing/package/bin/iif_process.py
+source/processing/package/build
+source/processing/package/dist
+source/processing/package/iif_processor.egg-info
+source/processing/package/iif_processor/__init__.py
+source/processing/package/iif_processor/generate_json.py
+source/processing/package/temp
+source/processing/package/setup.cfg
+source/processing/generate_json.pyc
